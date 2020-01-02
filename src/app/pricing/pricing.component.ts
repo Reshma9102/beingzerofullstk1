@@ -14,7 +14,7 @@ export class PricingComponent implements OnInit {
     this.data.getData().subscribe(d => {
       this.users['arr'] = d;
       //alert(this.users.arr.length);
-      this.count=this.users.arr.length;
+      this.count=this.users['arr'].length;
     })
 
   }
